@@ -11,7 +11,7 @@ print("\n")
 print("============================== PORT SCAN RESULT ============================= ")
 print("\n")
 
-for port  in range(20, 443):
+for port  in range(20, 80):
 
     if port == 21:
         service = "FTP"
